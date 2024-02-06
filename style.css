@@ -79,9 +79,9 @@
     margin-left:4rem;
     margin-right:.4rem;
     
-   
-    z-index: 999; 
-    
+    position: sticky;
+    top: 0;
+  
 }
 .text-div{
     height:50vh;
@@ -136,11 +136,13 @@
     justify-content:center;
     align-items: center;
     margin-top:7rem;
-    height:50vh;
-    width:90vw;
-    max-width:95vw;
+    height:55vh;
+    border-radius: 5px;
+    width:86vw;
+    max-width:90vw;
     background-color:
     #483EFF;
+    margin-right:3rem;
 }
 
 .options{

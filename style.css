@@ -77,6 +77,9 @@
     right: 0;
     transition: top 0.3s ease,bottom 0.3s ease;
 }
+.down-arrow {
+    font-size: smaller; 
+}
 
 .sticky {
     top: 100px; 
@@ -263,8 +266,8 @@
 .button-div {
     position: relative;
     
-    width: 95%; /* Ensure the div takes up the entire width */
-    height: 10vh; /* Ensure the div takes up the entire viewport height */
+    width: 95%; 
+    height: 10vh; 
 }
 
 #next-button {
